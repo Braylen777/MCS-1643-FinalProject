@@ -10,8 +10,8 @@
 ---
 
 # Required ReadMe Info for ALL MCS1243 Projects
-* **Project**   - 
-* **Your Name** - 
+* **Project**   - MCS 1643 Final Project
+* **Your Name** - Braylen Allen
 * **Date**      - 
 
 <br>
