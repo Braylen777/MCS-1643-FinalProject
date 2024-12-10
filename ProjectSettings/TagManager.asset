@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Item
+  - Switch
+  - Wall
+  - Obstacle
+  - Goal
   layers:
   - Default
   - TransparentFX
