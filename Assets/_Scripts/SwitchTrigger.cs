@@ -7,6 +7,9 @@ public class SwitchTrigger : MonoBehaviour
 
 {
     public GameObject WallPrefab;
+    public AudioClip keySound;
+    private UnityEngine.Vector3 point;
+
     void OnTriggerEnter(Collider other)
     {
         // pickup if it has tag "Item" and we are not carrying anything
@@ -14,6 +17,7 @@ public class SwitchTrigger : MonoBehaviour
         {
             //Destroy(GameObject.Find("Wall"));
             WallPrefab.SetActive(false);
+            AudioSource.PlayClipAtPoint(keySound, point);
         }
     }
 

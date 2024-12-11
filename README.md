@@ -12,55 +12,71 @@
 # Required ReadMe Info for ALL MCS1243 Projects
 * **Project**   - MCS 1643 Final Project
 * **Your Name** - Braylen Allen
-* **Date**      - 
+* **Date**      - 12/11/24
 
 <br>
 
 1. **What are the controls to your game? How do we play?**
-
-
+WASD- Movement
+E- Set down Item
 
 <br>
 
 2. **What creative additions did you make? How can we find them?**
-
+Zelda-like puzzle game where you move keys to locks to open doors
 
 
 <br>
 
 3. **Any assets used that you didn't create yourself?** <br> (art, music, etc. Just tell us where you got it, link it here)
 
-Robot Crush font https://www.dafont.com/robot-crush.font
+Sounds/Music
+Door unlocking.aiff by Paulo_Gonçalves -- https://freesound.org/s/275909/ -- License: Attribution NonCommercial 4.0
+echopop.mp3 by RandomWizKid -- https://freesound.org/s/706118/ -- License: Creative Commons 0
+Whimsical Haunts (Playful Soundtrack for Halloween Fun) by Universfield -- https://freesound.org/s/761769/ -- License: Attribution 4.0
+Whimsical Melody by TheLastOneOnEarth -- https://freesound.org/s/737568/ -- License: Attribution NonCommercial 4.0
+Some acapella sort of thing by sonically_sound -- https://freesound.org/s/651798/ -- License: Attribution NonCommercial 4.0
+Crack Shatter by JustInvoke -- https://freesound.org/s/446133/ -- License: Attribution 4.0
+8-Bit Jump 2 by TheDweebMan -- https://freesound.org/s/277219/ -- License: Creative Commons 0
+Assets
+https://assetstore.unity.com/packages/3d/props/padlock-231052
+https://assetstore.unity.com/packages/3d/props/rust-key-167590
+https://assetstore.unity.com/packages/2d/textures-materials/stone/dungeon-floors-and-walls-20-free-samples-280741
+https://assetstore.unity.com/packages/2d/textures-materials/stylized-lava-materials-180943
+https://assetstore.unity.com/packages/3d/environments/dungeons/lite-dungeon-pack-low-poly-3d-art-by-gridness-242692
+https://assetstore.unity.com/packages/3d/environments/dungeons/low-poly-dungeons-lite-177937
+https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353
 
 <br>
 
 4. **Did you receive help from anyone outside this class?** <br> (list their names and what they helped with)
 
-
+No outside help
 
 <br>
 
 5. **Did you get help from any AI Code Assistants?** <br> (Tell us which .cs file to look in for the citation and describe what you learned)
-
+No Ai help
 
 
 <br>
 
 6. **Did you get help from any online websites, videos, or tutorials?** <br> (link them here)
-
+https://youtube.com/playlist?list=PL4vbr3u7UKWp0iM1WIfRjCDTI03u43Zfu&feature=shared
+https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html
 
 
 <br>
 
 7. **What trouble did you have with this project?**
-
+A main trouble I had was writing the script for moving blocks
 
 
 <br>
 
 8. **Is there anything else we should know?**
 
-
+I was able to solve the problem with objects causing player to move
 
 
 <br><br><br><br><br>

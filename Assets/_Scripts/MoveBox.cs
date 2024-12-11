@@ -8,6 +8,8 @@ public class CollectItems : MonoBehaviour
     public float speed = 5;
     public Transform carryLocation; // this is empty gameobject as a child of player, object will be carried on this position
     Transform currentItem = null;
+    public AudioClip grabSound;
+    private UnityEngine.Vector3 point;
 
     void Update()
     {
@@ -43,7 +45,8 @@ public class CollectItems : MonoBehaviour
 
             // make it as a child of player, so it moves along with player
             currentItem.parent = transform;
-
+            // play sound notifying player
+            AudioSource.PlayClipAtPoint(grabSound, point);
         }
     }
 }

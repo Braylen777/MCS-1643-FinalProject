@@ -6,6 +6,8 @@ public class JumpScript : MonoBehaviour
 {
     public float jumpSpeed = 275.0f;
     private bool onGround = false;
+    public AudioClip jumpSound;
+    private Vector3 point;
 
     Rigidbody rb;
     // Use this for initialization
@@ -21,6 +23,7 @@ public class JumpScript : MonoBehaviour
 
         if (Input.GetKeyDown("space"))
         {
+            AudioSource.PlayClipAtPoint(jumpSound, point);
             rb.AddForce(Vector3.up * jumpSpeed);
         }
 
